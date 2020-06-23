@@ -1,0 +1,36 @@
+forced wait:
+    import time
+
+        time.sleep(seconds)
+
+
+ by default webdriver waits for the page to be loaded for 30 secs.
+ we can also set page load timeout to anything, by default the page load timeout is set to 30secs by the webdriver
+ the code driver.set_page_load_timeout(1)   will override the timeout of 30 secs and will set to 1 second
+
+ driver.Chrome()
+ driver.maximise_window()
+ driver.set_page_load_timeout(1)
+ driver.get(url)
+
+ here, driver.set_page_load_timeout(1) would wait for 1 second to get the page loaded after url is browsed.
+
+ ######################################################################################################################
+
+ implicit wait:
+
+    it checks the existence of the element
+ we get NoSuchElement exception.
+ reason could be:
+ when webdriver is searching for any element, it may happen that the page is not loaded completely
+ webdriver is not able to get that element.
+ we can instruct the webdriver to wait for a certain time for the web element to get loaded,
+ and set the test to fail if webdriver is not able to find in the given time
+
+ it is applicable for all the web elements once it is set to driver in setup method
+
+ ######################################################################################################################
+
+explicit wait:
+    it checks on property of the element:
+        e.g. check element is enabled/disabled, wait till text present etc.

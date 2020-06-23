@@ -1,0 +1,12 @@
+2020-02-13 17:37:07,337 - test_generate_logs - INFO - Information
+2020-02-13 17:37:07,337 - test_generate_logs - WARNING - warning
+2020-02-13 17:37:34,512 - test_generate_logs - INFO - Information
+2020-02-13 17:37:34,512 - test_generate_logs - WARNING - warning
+2020-02-13 17:37:50,179 - test_generate_logs - INFO - This is log info
+2020-02-13 18:30:25,848 - test_generate_logs - INFO - Information
+2020-02-13 18:30:25,848 - test_generate_logs - WARNING - warning
+2020-02-13 18:30:35,474 - test_generate_logs - INFO - This is log info
+2020-02-15 14:22:20,790 - test_generate_logs - INFO - Information
+2020-02-15 14:22:20,791 - test_generate_logs - WARNING - warning
+2020-02-17 22:59:21,483 - test_generate_logs - INFO - Information
+2020-02-17 22:59:21,484 - test_generate_logs - WARNING - warning
